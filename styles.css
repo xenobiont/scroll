@@ -1,0 +1,57 @@
+@import 'https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css';
+
+:root {
+	--color1: #fffff6;
+	--color2: #161619;
+	--color3: sandybrown;
+	--color4: snow;
+	--color5: mistyrose;
+	--color6: deepskyblue;
+	--color7: lavender;
+	--color8: rebeccapurple;
+}
+
+body {
+	font-family: system-ui, sans-serif;
+	background-color: var(--color1);
+	color: var(--color2);
+}
+
+section {
+	height: 100vh;
+}
+
+.one {
+	background-color: var(--color3);
+}
+.two {
+	background-color: var(--color4);
+}
+.three {
+	background-color: var(--color5);
+}
+.four {
+	background-color: var(--color6);
+}
+.five {
+	background-color: var(--color7);
+}
+.six {
+	background-color: var(--color8);
+}
+
+#scroll-btn {
+	display: none;
+	position: fixed;
+	bottom: 25px;
+	right: 25px;
+	background-color: var(--color2);
+	color: var(--color1);
+	font-size: 24px;
+	font-weight: 600;
+	height: 40px;
+	width: 40px;
+	border-radius: 7px;
+	cursor: pointer;
+	outline: none;
+}
